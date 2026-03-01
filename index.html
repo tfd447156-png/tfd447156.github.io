@@ -7,81 +7,123 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="nav-bar">
-        <ul class="menu">
-            <li><a href="#home">Головна</a></li>
-            <li><a href="#portfolio">Портфоліо</a></li>
-            <li><a href="#contacts">Контакти</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav class="nav-bar">
+            <ul class="menu">
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#labs">Лабораторні роботи</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <div id="home" class="container">
+    <main id="home" class="container">
         <aside class="left-panel">
-            <div class="profile-img">
+            <figure class="profile-img">
                 <img src="avatar.png" class="round-photo">
-            </div>
+            </figure>
             
-            <h2>Контакти</h2>
-            <div class="line"></div>
-            <p><strong>Ім'я:</strong> Уляна Ккваснюк</p>
-            <p><strong>Електронна пошта:</strong> ulyanakvasnyuk@gmail.com</p>
-            <p><strong>Номер телефону:</strong> +38 099 753-92-30</p>
-            <p><strong>Дата народження:</strong> 06-08-2008</p>
+            <section id="contacts">
+                <h2>Контакти</h2>
+                <div class="line"></div>
+                <p><strong>Ім'я:</strong> Уляна Ккваснюк</p>
+                <p><strong>Електронна пошта:</strong> ulyanakvasnyuk@gmail.com</p>
+                <p><strong>Номер телефону:</strong> +38 099 753-92-30</p>
+                <p><strong>Дата народження:</strong> 06-08-2008</p>
+            </section>
+            
+            <section>
+                <h3>Хобі</h3>
+                <div class="line"></div>
+                <ul class="interests-list">
+                    <li>Фотографія</li>
+                    <li>Дизайн</li>
+                    <li>Малювання</li>
+                </ul>
+            </section>
 
-            <h3>Хобі</h3>
-            <div class="line"></div>
-            <ul class="interests-list">
-                <li>Фотографія</li>
-                <li>Дизайн</li>
-                <li>Малювання</li>
-            </ul>
-
-            <h3>Languages</h3>
-            <div class="line"></div>
-            <ul class="lang-list">
-                <li>English - Upper-Intermediate</li>
-                <li>Українська - рідна</li>
-            </ul>
+            <section>
+                <h3>Languages</h3>
+                <div class="line"></div>
+                <ul class="lang-list">
+                    <li>English - Upper-Intermediate</li>
+                    <li>Українська - рідна</li>
+                </ul>
+            </section>
         </aside>
 
-        <main class="main-content">
-            <h1>Уляна Кваснюк</h1>
+        <article class="main-content">
+            <header>
+                <h1>Уляна Кваснюк</h1>
+            </header>
             
-            <h2>Досвід роботи</h2>
-            <div class="divider"></div>
-            <ol class="work-list">
-                <li><div class="item-desc">Створення веб-сторінок</div></li>
-                <li><div class="item-desc">Програмуваня на Python</div></li>
-                <li><div class="item-desc">Робота з базами даних</div></li>
-            </ol>
-
-            <h2>Освіта</h2>
-            <div class="divider"></div>
-            <div class="edu-block">
-                <div class="edu-info">
-                    <strong>ВСП "Фаховий коледж електронних приладів ІФНТУНГ"</strong>
-                    <p>Спеціальність "Інформаційні системи та технології"</p>
+            <section>
+                <h2>Досвід роботи</h2>
+                <div class="divider"></div>
+                <ol class="work-list">
+                    <li><div class="item-desc">Створення веб-сторінок</div></li>
+                    <li><div class="item-desc">Програмуваня на Python</div></li>
+                    <li><div class="item-desc">Робота з базами даних</div></li>
+                </ol>
+            </section>
+            
+            <section>
+                <h2>Освіта</h2>
+                <div class="divider"></div>
+                <div class="edu-block">
+                    <div class="edu-info">
+                        <strong>ВСП "Фаховий коледж електронних приладів ІФНТУНГ"</strong>
+                        <p>Спеціальність "Інформаційні системи та технології"</p>
+                    </div>
+                    <span class="year-label">2023–дотепер</span>
                 </div>
-                <span class="year-label">2023–дотепер</span>
-            </div>
+            </section>
+            
+            <section>
+                <h2>Курси</h2>
+                <div class="divider"></div>
+                <ul class="extra-list">
+                    <li>
+                        <span class="item-name">Програмування на мові Python</span>
+                        <span class="year-label">2025</span>
+                    </li>
+                    <li>
+                        <span class="item-name">Веб-технології: Backend & Frontend</span>
+                        <span class="year-label">2023</span>
+                    </li>
+                </ul>
+            </section>
 
-            <h2>Курси</h2>
-            <div class="divider"></div>
-            <ul class="extra-list">
-                <li>
-                    <span class="item-name">Програмування на мові Python</span>
-                    <span class="year-label">2025</span>
-                </li>
-                <li>
-                    <span class="item-name">Веб-технології: Backend & Frontend</span>
-                    <span class="year-label">2023</span>
-                </li>
-            </ul>
+            <section>
+                <h2>Практичні навички</h2>
+                <div class="divider"></div>
+                <p class="skills-tags">SQL, HTML, CSS, Python</p>
+            </section>
 
-            <h2>Практичні навички</h2>
-            <div class="divider"></div>
-            <p class="skills-tags">Python, C++, SQL, HTML, CSS</p>
-        </main>
-    </div>
+            <section id="labs">
+                    <h2>Лабораторні роботи</h2>
+                    <div class="divider"></div>
+                    <div class="labs-container">
+                        <div class="lab-group">
+                            <h3>Лабораторна робота №3</h3>
+                            <div class="grid-btn">
+                                <a href="LR3/task1/index.html" class="btn">Завдання №1</a>
+                                <a href="LR3/task2/article.html" class="btn">Завдання №2</a>
+                                <a href="LR3/task3/index.html" class="btn">Завдання №3</a>
+                            </div>
+                            <h3>Практична робота №2</h3>
+                            <div class="grid-btn">
+                                <a href="task_lemon/index.html" class="btn">Завдання №1</a>
+                                <a href="task_mriya/cossacs.html" class="btn">Завдання №2</a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 Всі права захищені.</p>
+    </footer>
 </body>
 </html>
