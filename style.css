@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial;
     margin: 0;
     padding-top: 55px;
     background-color: #fdfdfd;
@@ -7,6 +7,7 @@ body {
 
 .nav-bar {
     background-color: #2f4c6e;
+    height: 55px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -64,6 +65,10 @@ body {
     object-fit: cover;
 }
 
+address {
+    font-style: normal;
+}
+
 .main-content {
     flex: 1;
     padding: 40px 60px;
@@ -97,13 +102,8 @@ ul, ol {
     list-style: none;
 }
 
-#labs {
-    margin-top: 30px;
-    padding-bottom: 0;
-}
-
-#labs h2 {
-    margin-bottom: 10px;
+.skills-tags {
+    margin-bottom: 30px;
 }
 
 .labs-content {
@@ -156,5 +156,4 @@ footer p {
     text-align: center;
     color: #fff;
     margin: 0;
-
 }
