@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreativ - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page-wrapper">
+        
+        <main class="form-container">
+            <header class="form-header">
+                <div class="logo">Kreativ</div>
+            </header>
+
+            <div class="form-content">
+                <h2>Let’s get you started</h2>
+                
+                <form action="#" class="signup-form">
+                    <div class="input-field">
+                        <label for="fullname">Full name</label>
+                        <input type="text" id="fullname" placeholder="Ade Tiger" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" placeholder="yourname@email.com" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="password">Create password</label>
+                        <div class="password-wrapper">
+                            <input type="password" id="password" placeholder="••••••••" required>
+                            <button type="button" class="toggle-password">
+                                <img src="icons/eye-icon.png" alt="show/hide">
+                            </button>
+                        </div>
+                        <span class="field-hint">Password must contain a minimum of 8 characters.</span>
+                        <span class="field-hint">Password must contain at least one symbol e.g. @, !</span>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="location">Location <span class="optional">(Optional)</span></label>
+                        <select id="location">
+                            <option value="" disabled selected>Select Location</option>
+                            <option value="ukraine">Ukraine</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Sign Up</button>
+                </form>
+
+                <p class="login-redirect">Already a user? <a href="#">Login</a></p>
+            </div>
+        </main>
+
+        <section class="promo-container">
+            <nav class="top-nav">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+            </nav>
+
+            <div class="promo-content">
+                <blockquote>
+                    “Creativity is intelligence having fun”
+                </blockquote>
+                <cite>— Albert Einstein</cite>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
